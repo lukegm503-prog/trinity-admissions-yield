@@ -1,0 +1,7 @@
+{
+  "data": "real",
+  "test_admits": 5143,
+  "test_enroll_rate": 0.2275,
+  "selected_model": "Gradient boosting",
+  "top20pct_share_of_enrollees": 0.553
+}

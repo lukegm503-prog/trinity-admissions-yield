@@ -1,0 +1,4 @@
+model,cv_auc,test_auc,cutoff,test_kappa,test_kappa_at_0.5,test_accuracy,brier,predicted_enrollees,actual_enrollees,best_params
+Gradient boosting,0.8531,0.8512,0.35,0.4865,0.4132,0.8178,0.1192,1125.3,1170,"{""learning_rate"": 0.03, ""max_iter"": 200, ""max_leaf_nodes"": 15}"
+Random forest,0.8527,0.8488,0.33,0.4746,0.3895,0.8013,0.1212,1141.3,1170,"{""max_features"": 0.2, ""min_samples_leaf"": 10}"
+Logistic regression,0.8439,0.8437,0.32,0.482,0.3943,0.8198,0.1236,1137.3,1170,"{""C"": 0.03}"

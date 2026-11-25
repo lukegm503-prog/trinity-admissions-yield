@@ -1,0 +1,23 @@
+# Confidential student-level data: never commit
+data/raw/
+*.ipynb_checkpoints/
+cleaneddf*.csv
+TU.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Results from the synthetic stand-in data (regenerate with src/train.py)
+outputs/synthetic_run/

@@ -1,0 +1,5 @@
+variant,cv_auc,test_auc,test_kappa,predicted_enrollees,actual_enrollees
+All features,0.8531,0.8512,0.4865,1125.3,1170
+"Without sex, ethnicity, race, religion",0.8515,0.8506,0.4952,1126.1,1170
+Original merit grouping (71% of codes lost),0.8499,0.8477,0.4785,1124.6,1170
+Adding the Opt Out flag (likely leakage),0.8829,0.8781,0.536,1126.8,1170
